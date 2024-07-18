@@ -59,6 +59,7 @@ Attendance Record Viewing:
 The script view_attendance.py provides a Streamlit web interface to view the attendance records for the current date. It highlights the maximum values for better visualization.
 
 Results:
+
 The results of the face recognition model, including accuracy, F1 score, precision, recall, and a classification report, are displayed after training the model. The system's performance can be visualized using plots of training and validation accuracy and loss.
 
 

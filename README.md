@@ -11,7 +11,6 @@ An end-to-end **CNN-based facial recognition system** for real-time attendance t
 - [System Architecture](#-system-architecture)
 - [Technologies Used](#-technologies-used)
 - [Installation & Setup](#-installation--setup)
-- [How to Use](#-how-to-use)
 - [Screenshots](#-screenshots)
 - [Evaluation Metrics](#-evaluation-metrics)
 - [Future Improvements](#-future-improvements)
@@ -200,6 +199,89 @@ This will:
 - Allow exporting attendance data to:
   - CSV file
   - PDF report (auto-generated using ReportLab)
+
+---
+
+## 📷 Screenshots
+
+### System Architecture
+
+![System Architecture](screenshots/System%20Architecture.jpg)
+
+---
+
+### User Registration & Dataset Creation
+
+- Append New Images for Existing User  
+  ![Append New Images](screenshots/Append%20New%20Images.png)
+
+- Dataset Creation for New Users
+  ![Dataset Creation](screenshots/Dataset%20Creation%20for%20new%20users.png)
+
+- Capture User Images  
+  ![Capture Images](screenshots/Capture%20images.png)
+
+---
+
+### Model Training & Performance
+
+- Training Accuracy & Loss Plot  
+  ![Training Accuracy and Loss](screenshots/Training%20Accuracy%20and%20Loss.png)
+
+---
+
+### Real-Time Face Recognition & Attendance Logging
+
+- Face Recognition Output (Webcam Feed)  
+  ![Face Recognition](screenshots/Face%20Recognition%20Outputs.png)
+
+- Attendance Log File (CSV View)  
+  ![Attendance Records](screenshots/Attendance%20Records.png)
+
+---
+
+### Streamlit Dashboard (View, Search, Export)
+
+- Search by Name  
+  ![Search by Name](screenshots/Streamlit%20-%20Search%20by%20Name.png)
+
+- Search by ID  
+  ![Search by ID](screenshots/Streamlit%20-%20Search%20by%20ID.png)
+
+- Search by Date  
+  ![Search by Date](screenshots/Streamlit%20-%20Search%20by%20Date.png)
+
+- Export Functionality (PDF/CSV)  
+  ![Export](screenshots/Streamlit%20-%20Export%20Functionality.png)
+
+---
+
+## 📈 Evaluation Metrics
+
+The trained CNN model was evaluated using key classification metrics on the validation dataset.
+
+| Metric     | Value    |
+|------------|----------|
+| Accuracy   | 94.2%    |
+| Precision  | 94.5%    |
+| Recall     | 94.2%    |
+| F1 Score   | 94.2%    |
+
+Additional Details:
+- Evaluation was performed using `classification_report()` from Scikit-learn
+- Accuracy and loss were visualized using Matplotlib during training
+- Model achieved high generalization even with real-time camera images
+
+![Evaluation](screenshots/Evaluation%20Metrics.png)
+
+---
+
+## 👤 Author
+
+**Sneha S**  
+Final Year B.E. Computer Science and Engineering Student,
+Coimbatore Institute of Technology  
+GitHub: [@Sneha1908](https://github.com/Sneha1908)
 
 
 

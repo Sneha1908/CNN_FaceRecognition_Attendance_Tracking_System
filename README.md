@@ -13,8 +13,6 @@ An end-to-end **CNN-based facial recognition system** for real-time attendance t
 - [Installation & Setup](#-installation--setup)
 - [Screenshots](#-screenshots)
 - [Evaluation Metrics](#-evaluation-metrics)
-- [Future Improvements](#-future-improvements)
-- [License](#-license)
 - [Author](#-author)
 ---
 
